@@ -101,7 +101,7 @@ public class BankAppMocitoTestCase {
 		
 		//Verification
 		Mockito.verify(accountDao).findAccountById(1001);
-		Assert.assertEquals(5500, find_account.getAmount(),0.0);
+		Assert.assertEquals(0.0, find_account.getAmount(),5500);
 		
 	}
 	
